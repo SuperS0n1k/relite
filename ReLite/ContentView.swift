@@ -6,7 +6,7 @@ struct ContentView: View {
     @State private var userInput: String = ""
     @State private var errorMsg: String = "[*] Status: Ready"
     @FocusState private var isTextFieldFocused: Bool
-    @State private var debug: Bool = true
+    @State private var debug: Bool = false
     @State private var showInput: Bool = true
     
     func dirtyZeroHide(path: String) {
